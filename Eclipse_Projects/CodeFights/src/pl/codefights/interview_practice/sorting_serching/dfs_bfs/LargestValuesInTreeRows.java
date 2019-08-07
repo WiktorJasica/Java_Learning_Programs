@@ -86,7 +86,7 @@ public class LargestValuesInTreeRows {
 	    Queue <Tree<Integer>> q = new LinkedList<Tree<Integer>>();
 	    q.add(t);
 	    
-	    //BFS - allvalues in nodes
+	    //BFS - all values in nodes
 	    while(!q.isEmpty()){
 	        Tree<Integer> tempNode = q.poll();
 	        l.add(tempNode.value);
